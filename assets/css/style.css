@@ -193,6 +193,8 @@ a {
 
 .contact-info-wrapper{
   position: relative;
+  width: 500px;
+  height: 50px;
   top: 50%;
   left: 33%;
 }
@@ -208,7 +210,7 @@ a {
   position: absolute;
   float: right;
   left: 30px;
-  bottom: 5px;
+  bottom: 55px;
   font-size: 18px;
   font-weight: 500;
 }
@@ -218,7 +220,7 @@ a {
   position: absolute;
   float: right;
   left: 130px;
-  bottom: 5px;
+  bottom: 55px;
   font-size: 18px;
   font-weight: 500;
 }
@@ -228,7 +230,7 @@ a {
   position: absolute;
   float: right;
   left: 240px;
-  bottom: 5px;
+  bottom: 55px;
   font-size: 18px;
   font-weight: 500;
 }
@@ -238,7 +240,7 @@ a {
   position: absolute;
   float: right;
   left: 355px;
-  bottom: 5px;
+  bottom: 55px;
   font-size: 18px;
   font-weight: 500;
 }
