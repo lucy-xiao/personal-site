@@ -74,8 +74,8 @@ $(window).scroll(parallax);
   });
 }
 
-$("#resume.nav-item").click( function() {
-  $('body').scrollTo('#resume-section');
+$("#contact.nav-item").click( function() {
+  $('body').scrollTo('#contact-section');
 })
 
 $("#skills.nav-item").click( function() {
@@ -91,5 +91,50 @@ $("#plugd.nav-item").click( function() {
 $("#top.nav-item").click( function() {
   $('body').scrollTo('#name-section');
 })
+
+// $("#github").hover( 
+//   function() {
+//   $("#github").append("Github");
+//   }
+//   )
+
+$('.icon1').hover(
+  function() {
+    $('.img-name1').css("display", "inline");
+  },
+  function() {
+    $('.img-name1').css("display", "none");
+  }
+);
+
+$('.icon2').hover(
+  function() {
+    $('.img-name2').css("display", "inline");
+  },
+  function() {
+    $('.img-name2').css("display", "none");
+  }
+);
+
+$('.icon3').hover(
+  function() {
+    $('.img-name3').css("display", "inline");
+  },
+  function() {
+    $('.img-name3').css("display", "none");
+  }
+);
+
+$('.resume-text').hover(
+  function() {
+    $('.img-name4').css("display", "inline");
+  },
+  function() {
+    $('.img-name4').css("display", "none");
+  }
+);
+
+
+
 
 });

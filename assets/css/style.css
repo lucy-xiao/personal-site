@@ -31,10 +31,10 @@ a {
     margin-right: 20px;
 }
 
-#resume:hover{
+#contact:hover{
     cursor: pointer; 
     cursor: hand;
-    color:#f9df8d;
+    color:#EDE7D3;
 }
 
 #skills:hover{
@@ -168,7 +168,7 @@ a {
 }
 
 #skills-section {
-    background-color: black;
+    background-color: #242424;
 }
 
 #resume-section {
@@ -176,6 +176,72 @@ a {
     background-color: #f9df8d;
 }
 
+#contact-section {
+  height: 200px;
+  background-color: black;
+  color: white;
+}
+
+#contact-section a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact-title {
+  color: white;
+}
+
+.contact-info-wrapper{
+  position: relative;
+  top: 50%;
+  left: 33%;
+}
+
+.icon1, .icon2, .icon3, .resume-text{
+  float: left;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.img-name1 {
+  display: none;
+  position: absolute;
+  float: right;
+  left: 30px;
+  bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.img-name2 {
+  display: none;
+  position: absolute;
+  float: right;
+  left: 130px;
+  bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.img-name3 {
+  display: none;
+  position: absolute;
+  float: right;
+  left: 240px;
+  bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.img-name4 {
+  display: none;
+  position: absolute;
+  float: right;
+  left: 355px;
+  bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
 
 .clear {
 	clear: both;
@@ -291,6 +357,7 @@ a {
     -moz-transform: translateX(-50%) translateY(-10%);
    	transform: translateX(-50%) translateY(-10%);
 }
+
 #name-text {
     width: 90%;
     text-align: center;
