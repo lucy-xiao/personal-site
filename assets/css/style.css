@@ -199,51 +199,7 @@ a {
   left: 33%;
 }
 
-.icon1, .icon2, .icon3, .resume-text{
-  float: left;
-  margin-right: 40px;
-  margin-left: 40px;
-}
 
-.img-name1 {
-  display: none;
-  position: absolute;
-  float: right;
-  left: 30px;
-  bottom: 55px;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.img-name2 {
-  display: none;
-  position: absolute;
-  float: right;
-  left: 130px;
-  bottom: 55px;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.img-name3 {
-  display: none;
-  position: absolute;
-  float: right;
-  left: 240px;
-  bottom: 55px;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.img-name4 {
-  display: none;
-  position: absolute;
-  float: right;
-  left: 355px;
-  bottom: 55px;
-  font-size: 18px;
-  font-weight: 500;
-}
 
 .clear {
 	clear: both;
@@ -731,4 +687,61 @@ a {
     border-radius: 5px;
     margin-top: 13%;
     margin-left: 21%;
+}
+
+.icon1, .icon2, .icon3, .resume-text{
+  float: left;
+  margin-right: 40px;
+  margin-left: 40px;
+
+}
+
+.img-namea {
+  display: none;
+  position: absolute;
+  float: right;
+  left: 30px;
+  bottom: 55px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.img-name1 {
+  display: none;
+  position: absolute;
+  float: right;
+  left: 30px;
+  bottom: 55px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.img-name2 {
+  display: none;
+  position: absolute;
+  float: right;
+  left: 130px;
+  bottom: 55px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.img-name3 {
+  display: none;
+  position: absolute;
+  float: right;
+  left: 240px;
+  bottom: 55px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.img-name4 {
+  display: none;
+  position: absolute;
+  float: right;
+  left: 355px;
+  bottom: 55px;
+  font-size: 18px;
+  font-weight: 500;
 }
