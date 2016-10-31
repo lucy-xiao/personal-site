@@ -16,7 +16,7 @@ nav .brand-logo {
 nav{
   position: fixed;
   top: 0px;
-  z-index: 100;
+  z-index: 100; 
 }
 a{
   text-decoration: none;
@@ -69,17 +69,19 @@ footer.page-footer {
 }
 
 #profile-pic {
-    /*width: 100%;*/
-    /*transition: 0.4s cubic-bezier(1, -1, 0, 2);*/
     border: 2px solid white;
     border-radius: 5%;
-    /*margin-top: 2%;*/
 }
-
+.card.horizontal {
+  border-radius: 5px;
+}
 .card.horizontal .card-image {
   max-width: 50%;
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
 @media only screen and (max-width : 2000px) {
   .card.horizontal p, .card.horizontal a{
       font-size: 3em;
@@ -99,6 +101,7 @@ footer.page-footer {
   line-height: 3em;
   color: #00A0B0;
   text-decoration: underline;
+
 } 
 .card-content {
   text-align: center
@@ -109,9 +112,6 @@ footer.page-footer {
 }
 
 .iphone-img {
-    /*position: absolute;*/
-    /*top: 25%;*/
-    /*left: 10%;*/
     width: 200px;
 
 }
@@ -123,11 +123,8 @@ footer.page-footer {
 }
 
 .reddit-img{
-    /*position: absolute;*/
     border-radius: 5px;
     width: 90%;
-    /*top: 25%;*/
-    /*left: 10%;*/
 }
 
 .reddit-img:hover{
