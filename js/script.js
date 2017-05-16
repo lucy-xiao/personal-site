@@ -71,7 +71,7 @@ function getNavOffset() {
   return this.each(function(){
     var scrollPane = $(this);
     var scrollTarget = (typeof settings.scrollTarget == "number") ? settings.scrollTarget : $(settings.scrollTarget);
-    var scrollY = (typeof scrollTarget == "number") ? scrollTarget : scrollTarget.offset().top - getNavOffset()*.5;
+    var scrollY = (typeof scrollTarget == "number") ? scrollTarget : scrollTarget.offset().top - getNavOffset()*0.5;
     scrollPane.animate({scrollTop : scrollY }, parseInt(settings.duration, 10), settings.easing, function(){
       if (typeof callback == 'function') { callback.call(this); }
     });
@@ -94,6 +94,9 @@ $("#plugd-nav-item").click( function() {
 });
 $("#top-nav-item").click( function() {
   $('body').scrollTo('#top');
+});
+$("#infog-nav-item").click( function() {
+  $('body').scrollTo('#infog-section');
 });
 
 $('#github').hover(
