@@ -95,7 +95,12 @@ footer.page-footer {
       line-height: 2em;
   }
 }
-
+.push {
+  margin-bottom: 80px;
+}
+.section {
+  /*margin-top: 60px;*/
+}
 .card.horizontal a {
   font-size: 1.7em;
   line-height: 3em;
