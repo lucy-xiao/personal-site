@@ -1,156 +1,274 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>JS Bin</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <title>Lucy Xiao</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  
+  
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-        <link rel="stylesheet" href="assets/css/style.css">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-        </script> 
-        <script src = "assets/js/script.js"></script>
-    </head>
-    <body>
-        <div class="nav-bar">
+    <a id="top"></a>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper" id="#nav-wrapper">
+            <a id="logo-container" href="#" class="brand-logo"> Lucy Xiao</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a id="top-nav-item">Top</a></li>
+                <li><a id="reddit-nav-item">Reddit</a></li>
+                <li><a id="plugd-nav-item">Plugd</a></li>
+                <li><a id="skills-nav-item">Skills</a></li>
+                <li><a id="infog-nav-item">Infographic</a></li>
+                <li><a id="contact-nav-item">Contact</a></li>
+                
 
-            <div class="name">Lucy Xiao</div>
-            <div class="nav-item" id="contact" href="#contact-section">Contact Me</div>
-            <div class="nav-item" id="skills" href="#skills-section">Skills</div>
-            <div class="nav-item" id="reddit" href="#reddit-section">Reddit</div>
-            <div class="nav-item" id="plugd" href="#plugd-section">Plugd</div>
-            <div class="nav-item" id="top" href=".nav-bar">Top</div>
+            </ul>
         </div>
-
+    </nav>
+    <!-- <div class="push"></div> -->
         <!-- Page Wrapper, Consisting of All the Sections -->
-        <div class = "page-wrapper">
             <!-- Name Section -->
-            <section class = "section" id = "name-section">
-                <div class= "profile-pic-container">
-                    <img src= "assets/img/profile_pic.JPG" id = "profile-pic"></img>
+        <br><br>
+    <div class="section">
+        <div class="container" id="card-container">
+            <div class="row">
+                <!-- <div class="col "> -->
+                    <div class="card horizontal">
+
+                        <div class="col s12 m6 l6 card-image center">
+                            <div class="profile-pic-container">
+                                <img id="profile-pic" src="assets/me.png">
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l6 card-stacked">
+                            <div class="card-content">
+                                <p>Designer.</p>
+                                <p>Programmer.</p>
+                                <p>Teacher.</p>
+                                <a href="assets/Resume-2016.pdf">Resume</a>
+                            </div>
+                        </div>
                 </div>
-                </div> -->
-                <div class="short-words" id="short-words"> Designer.</div>
-                <div class="short-words" id="short-words1"> Programmer.</div>
-                <div class="short-words" id="short-words2"> Bon viveur.</div>
+            </div>
+        </div>
+    </div>
 
-                <div class="about-me" id="about-me"> I'm a student studying Electrical Engineering and Computer Science at 
-                    UC Berkeley. My main interests include web applications, user experience, front-end development, music, and cooking.</div>
-                    <div class="about-me" id="about-me1"> In my free time, I love designing through Photoshop and Sketch and sharing the silly graphics I make with friends. I've also worked on small projects such as making a Todo-List and Hangman iOS application. </div>
-                    <div class="about-me" id="about-me2"> I also consider myself a chef-in-making, always trying new recipes and improvising them. My all time favorite seasoning is Cajun (it's all I rave about these days). </div>
-                    
+            <div class="section no-pad-bot about-me" id="about-me"> 
+                <div class="container">
+                    <div class= "row">
+                        <div class="col s6 justify">
+                            <!-- <span> -->
+                            I'm a student studying Electrical Engineering and Computer Science at UC Berkeley. My main interests include web applications, user experience, front-end development, music, and cooking.
+                            <!-- </span> -->
+                        </div>
+                        <div class="col s6 justify">
+                            <!-- <span> -->
+                            I'm the Coordinator for my club, FEMTech @ UC Berkeley, where our goal is to inspire more women to get involved with tech, regardless of experience.
+                            <!-- </span> -->
+                        </div>
+                    </div>
 
-            </section>
+                </div>
+
+            </div>
+
 
             <!-- Plugd Section -->
-            <section class = "section" id = "plugd-section">
-                <div id = "plugd-img-container">
-                    <img id = "iphone-img" src = "assets/img/Welcome-screen.png"></img>
-                    <img id = "iphone-img1" src = "assets/img/login-screen.png"></img>
-                    <img id = "iphone-img2" src = "assets/img/Top-rated-screen.png"></img>
-                </div>
-                <div id = "plugd-text-container">
-                    <div class = "text" id = "plugd-text">
-                        Plugd
+            <div class="section no-pad-bot" id="plugd-section"> 
+                <div class="container">
+                    <h2 class="header center"> Plugd </h2>
+                    <div class="row">
+                        <div class="col s12 m4 center">
+                            <img class = "iphone-img" src = "assets/Welcome-screen.png"></img>
+                        </div>
+                        <div class="col s12 m4 center">
+                            <img class = "iphone-img" src = "assets/login-screen.png"></img>
+                        </div>
+                        <div class="col s12 m4 center">
+                            <img class = "iphone-img" src = "assets/Top-rated-screen.png"></img>
+                        </div>
                     </div>
-                    <div class = "text" id = "description-text">
+                    <div class="row description center">
                         Designed the app UI for startup, where Plugd helps students find popular events around them. Design includes startup logo, unique icons, buttons, and more. Design is adaptable for all devices.
                     </div>
                 </div>
-                <div id = "plugd-picture-container"></div>
-            </section>
+            </div>
 
             <!-- Reddit Section -->
-            <section class = "section" id = "reddit-section">
-                <div id="reddit-img-container">
-                    <img id = "reddit-img" src = "assets/img/reddit-screen.png"></img>
-                </div>
-                <div id = "reddit-text-container">
-                    <div class = "text" id = "reddit-text">
-                        Reddit Re-Design
+            <div class="section no-pad-bot" id="reddit-section"> 
+                <div class="container">
+                    <h2 class="header center"> Reddit </h2>
+                    <div class="row">
+                        <div class="col s12 center">
+                            <img class = "reddit-img" src = "assets/reddit-screen.png"></img>
+                        </div>
                     </div>
-                    <div class = "text" id = "description-text">
-                        Made a new design for reddit for a cleaner, simplistic look. Less text clutters the screen with 
+                    <div class="row description center">
+                         Made a new design for reddit for a cleaner, simplistic look. Less text clutters the screen with 
                         UI design that appeals to the younger generation, while keeping the classic Reddit theme.
                     </div>
                 </div>
-                <div id = "reddit-picture-container"></div>
-            </section>
+            </div>
 
             <!-- Skills Section -->
-            <section class = "section" id = "skills-section">
-                <div id = "languages-text-container">
-                    <div class = "text" id = "languages-text">
-                        Skills
-                    </div>
+            <div class="section no-pad-bot" id="skills-section"> 
+                <div class="container">
+                    <h2 class="header center"> Skills </h2>
+                    <table class="highlight responsive-table centered">
+                        <thead>
+                            <tr>
+                                <th data-field="id">Languages</th>
+                                <th data-field="id">Beginner</th>
+                                <th data-field="id">Proficient</th>
+                                <th data-field="id">Experienced</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Java</td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td>Python</td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td>HTML/HTML5/CSS</td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td>C</td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
 
-                    <div id="bar-chart">
-                      <div class="graph">
-                        <ul class="y-axis">
-                        </ul>
+                            </tr>
+                            <tr>
+                                <td>Swift</td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>SQL</td>
+                                <td></td>
+                                <td>X</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Scheme</td>
+                                <td>X</td>
+                                <td></td>
+                                <td></td>
+                            </tr>            
+                        </tbody>
+                    </table>
+                    <br>    
+                    <br>        
+                    <table class="highlight responsive-table centered">
+                        <thead>
+                            <tr>
+                                <th data-field="id">Programs</th>
+                                <th data-field="id">Beginner</th>
+                                <th data-field="id">Proficient</th>
+                                <th data-field="id">Experienced</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Photoshop</td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td>Sketch</td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td>Microsoft Suite</td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <td>Xcode</td>
+                                <td></td>
+                                <td></td>
+                                <td>X</td>
 
-                        <div class="bars">
-                          <div class="bar-group">
-                            <div class="bar bar-1 stat-1" style="height: 75%;">  <a>Java</a>    
-                            </div>
-                            <div class="bar bar-2 stat-1" style="height: 75%;"> <a>Python</a>
-                            </div>
-                            <div class="bar bar-3 stat-1" style="height: 75%;"> <a>HTML/ CSS</a>
-                            </div>
-                            <div class="bar bar-4 stat-1" style="height: 75%;"> <a>Photoshop</a>
-                            </div>
-                            <div class="bar bar-5 stat-1" style="height: 75%;"> <a>Sketch</a>
-                            </div>
-                            <div class="bar bar-6 stat-2" style="height: 50%;"> <a>jQuery</a>
-                            </div>
-                            <div class="bar bar-7 stat-2" style="height: 50%;"> <a>C</a>
-                            </div>
-                            <div class="bar bar-8 stat-2" style="height: 50%;"> <a>Swift</a>
-                            </div>
-                            <div class="bar bar-9 stat-2" style="height: 50%;"> <a>Git</a>
-                            </div>
-                            <div class="bar bar-10 stat-3" style="height: 25%;"> <a>Scheme</a>
-                            </div>
-                            <div class="bar bar-11 stat-3" style="height: 25%;"> <a>SQL</a>
-                            </div>
-                          </div>                               
+                            </tr>          
+                        </tbody>
+                    </table>
+                </div>
+                <div><br></div>
+            </div>
+
+            <!-- Infographic Section -->
+            <div class="section no-pad-bot" id="infog-section"> 
+                <div class="container">
+                    <h2 class="header center"> Infographic </h2>
+                    <div class="row">
+                        <div class="col s12 center">
+                            <img class = "reddit-img" src = "assets/Website-Infographic@1x.png"></img>
                         </div>
-                      </div>
-
-                      <div class= "chart-label">
-                          <span class= "chart-label" id = "proficient"> Proficient </span> <span class= "chart-label" id="experienced"> Experienced </span> <span class= "chart-label" id="familiar"> Familiar </span>
-                            </div>
                     </div>
-                <!-- </div> -->
-            </section>
-
-            <!-- Resume Section -->
-            <!-- <section class = "section" id = "resume-section">
-                <div class = "text" id = "resume-title">
-                    Resume
-                </div>
-                <object class= "resume" data="assets/img/Resume-2015.pdf" type="application/pdf" width="750" height="970">
-                <a class="resume-text" href="assets/img/Resume-2015.pdf">Download</a>
-                </object>
-
-            </section> -->
-
-            <section class = "section" id = "contact-section">
-                <div class = "text" id = "contact-title">
-                        Contact Me
+                    <div class="row description center">
+                         Made a simplistic infographic to help non-techs understand the basics of web development.
+                         Using a fun sandwich metaphor, I demonstrate the roles of HTML, CSS, and JS.
                     </div>
-                <div class = "contact-info-wrapper">
-                    <a class = "icon1" id = "github" href="https://github.com/lucy-xiao/" target="_blank"><img id="github-img" src= "assets/img/github.png" width="30px"></img><div class="img-name1"> Github </div></a>
-                    <a class = "icon2" id = "linkedin" href="http://www.linkedin.com/in/lucygxiao" target="_blank"><img id="linkedin-img" src= "assets/img/linkedin3.jpg" width="30px"></img><span class="img-name2"> LinkedIn </span></a>
-                    <a class = "icon3" id = "email" href="mailto:lucyxiao@berkeley.edu" target="_top"><img id = "email-img" src= "assets/img/email.png" width="30px"></img><span class="img-name3"> Email Me </span></a>
-                    <a class="resume-text" id = "resume" href="assets/img/Resume-2016-Fall.pdf"><img id = "resume-img" src= "assets/img/Resume.png" width="30px"></img><span class="img-name4"> Resume </span></a>
                 </div>
+            </div>
 
-            </section>
-        </div>
+            <!-- Footer -->
+            <footer class="page-footer black" id="contact-section">
+                <div class="container">
+                    <h3 class="white-text center">Contact Me</h3>
+                    <div class="row nomargin">
+                        <div class="col s12 m3 center">
+                            <a class = "icon1" id = "github" href="https://github.com/lucy-xiao/" target="_blank"><img id="github-img" src= "assets/github.png" width="30px"></img><!-- <span class="github-icon white-text"> Github </span> --></a>
+                        </div>
+                        <div class="col s12 m3 center">
+                            <a class = "icon2" id = "linkedin" href="http://www.linkedin.com/in/lucygxiao" target="_blank"><img id="linkedin-img" src= "assets/linkedin3.jpg" width="30px"></img><!-- <span class="linkedin-icon white-text"> LinkedIn </span> --></a>
+                        </div>
+                        <div class="col s12 m3 center">
+                            <a class = "icon3" id = "email" href="mailto:lucyxiao@berkeley.edu" target="_top"><img id = "email-img" src= "assets/email.png" width="30px"></img><!-- <span class="email-icon white-text"> Email Me </span> --></a>
+                        </div>
+                        <div class="col s12 m3 center">
+                            <a class="resume-text" id = "resume" href="assets/Resume-2016.pdf"><img id = "resume-img" src= "assets/Resume.png" width="30px"></img><!-- <span class="resume-icon white-text"> Resume </span> --></a>
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m3 center">
+                            <span class="white-text" id="github-icon"> Github </span>
+                        </div>
+                        <div class="col s12 m3 center">
+                            <span class="white-text" id="linkedin-icon"> LinkedIn </span>
+                        </div>
+                        <div class="col s12 m3 center">
+                            <span class="white-text" id="email-icon"> Email Me </span>
+                        </div>
+                        <div class="col s12 m3 center">
+                            <span class="white-text" id="resume-icon"> Resume </span>
+                        </div> 
+                    </div>
+                    <div><br></div>
+                </div>  
+            </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
