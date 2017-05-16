@@ -71,9 +71,13 @@ footer.page-footer {
 #profile-pic {
     border: 2px solid white;
     border-radius: 5%;
+    /*width: 80%;*/
+    /*left: 20%;*/
 }
 .card.horizontal {
   border-radius: 5px;
+  width: 90%;
+  margin: 0 auto;
 }
 .card.horizontal .card-image {
   max-width: 50%;
@@ -147,4 +151,28 @@ footer.page-footer {
 .description{
   margin-top:5%;
   padding-bottom: 5%
+}
+
+.row .col.s6.justify {
+  text-align: justify;
+}
+
+.col.s12.m4.center {
+  margin: 0 auto;
+}
+.row.nomargin {
+  margin-bottom: 0px;
+}
+
+#github-icon {
+  display: none;
+}
+#linkedin-icon {
+  display: none;
+}
+#email-icon{
+  display:none;
+}
+#resume-icon{
+  display:none;
 }
