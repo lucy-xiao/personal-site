@@ -13,23 +13,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
+    <a id="top"></a>
     <nav class="white" role="navigation">
         <div class="nav-wrapper" id="#nav-wrapper">
             <a id="logo-container" href="#" class="brand-logo"> Lucy Xiao</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#skills-section">Skills</a></li>
-                <li><a href="#reddit-section">Reddit</a></li>
-                <li><a href="#plugd">Plugd</a></li>
-                <li><a href="#nav-wrapper">Top</a></li>
-                <li><a href="#contact-section">Contact</a></li>
+                <li><a id="skills-nav-item">Skills</a></li>
+                <li><a id="reddit-nav-item">Reddit</a></li>
+                <li><a id="plugd-nav-item">Plugd</a></li>
+                <li><a id="top-nav-item">Top</a></li>
+                <li><a id="contact-nav-item">Contact</a></li>
 
             </ul>
         </div>
     </nav>
-    <div class="push"></div>
+    <!-- <div class="push"></div> -->
         <!-- Page Wrapper, Consisting of All the Sections -->
             <!-- Name Section -->
         <br><br>
+    <div class="section">
         <div class="container" id="card-container">
             <div class="row">
                 <!-- <div class="col "> -->
@@ -37,7 +39,7 @@
 
                         <div class="col s12 m6 l6 card-image center">
                             <div class="profile-pic-container">
-                                <img id="profile-pic" src="assets/profile_pic.JPG">
+                                <img id="profile-pic" src="assets/me.png">
                             </div>
                         </div>
                         <div class="col s12 m6 l6 card-stacked">
@@ -51,14 +53,21 @@
                 </div>
             </div>
         </div>
+    </div>
 
             <div class="section no-pad-bot about-me" id="about-me"> 
                 <div class="container">
-                    <div class="col s12 m6 offset-s3 row">
-                        I'm a student studying Electrical Engineering and Computer Science at UC Berkeley. My main interests include web applications, user experience, front-end development, music, and cooking.
-                    </div>
-                    <div class="col s12 m6 offset-s6 offset-s3 row">
-                        I'm the Coordinator for my club, FEMTech @ UC Berkeley, where our goal is to inspire more women to get involved with tech, regardless of experience.
+                    <div class= "row">
+                        <div class="col s6 justify">
+                            <!-- <span> -->
+                            I'm a student studying Electrical Engineering and Computer Science at UC Berkeley. My main interests include web applications, user experience, front-end development, music, and cooking.
+                            <!-- </span> -->
+                        </div>
+                        <div class="col s6 justify">
+                            <!-- <span> -->
+                            I'm the Coordinator for my club, FEMTech @ UC Berkeley, where our goal is to inspire more women to get involved with tech, regardless of experience.
+                            <!-- </span> -->
+                        </div>
                     </div>
 
                 </div>
@@ -208,24 +217,39 @@
             <footer class="page-footer black" id="contact-section">
                 <div class="container">
                     <h3 class="white-text center">Contact Me</h3>
+                    <div class="row nomargin">
+                        <div class="col s12 m3 center">
+                            <a class = "icon1" id = "github" href="https://github.com/lucy-xiao/" target="_blank"><img id="github-img" src= "assets/github.png" width="30px"></img><!-- <span class="github-icon white-text"> Github </span> --></a>
+                        </div>
+                        <div class="col s12 m3 center">
+                            <a class = "icon2" id = "linkedin" href="http://www.linkedin.com/in/lucygxiao" target="_blank"><img id="linkedin-img" src= "assets/linkedin3.jpg" width="30px"></img><!-- <span class="linkedin-icon white-text"> LinkedIn </span> --></a>
+                        </div>
+                        <div class="col s12 m3 center">
+                            <a class = "icon3" id = "email" href="mailto:lucyxiao@berkeley.edu" target="_top"><img id = "email-img" src= "assets/email.png" width="30px"></img><!-- <span class="email-icon white-text"> Email Me </span> --></a>
+                        </div>
+                        <div class="col s12 m3 center">
+                            <a class="resume-text" id = "resume" href="assets/Resume-2016.pdf"><img id = "resume-img" src= "assets/Resume.png" width="30px"></img><!-- <span class="resume-icon white-text"> Resume </span> --></a>
+                        </div> 
+                    </div>
                     <div class="row">
-                        <div class="col s12 m3">
-                            <a class = "icon1" id = "github" href="https://github.com/lucy-xiao/" target="_blank"><img id="github-img" src= "assets/github.png" width="30px"></img><span class="github-icon white-text"> Github </span></a>
+                        <div class="col s12 m3 center">
+                            <span class="white-text" id="github-icon"> Github </span>
                         </div>
-                        <div class="col s12 m3">
-                            <a class = "icon2" id = "linkedin" href="http://www.linkedin.com/in/lucygxiao" target="_blank"><img id="linkedin-img" src= "assets/linkedin3.jpg" width="30px"></img><span class="linkedin-icon white-text"> LinkedIn </span></a>
+                        <div class="col s12 m3 center">
+                            <span class="white-text" id="linkedin-icon"> LinkedIn </span>
                         </div>
-                        <div class="col s12 m3">
-                            <a class = "icon3" id = "email" href="mailto:lucyxiao@berkeley.edu" target="_top"><img id = "email-img" src= "assets/email.png" width="30px"></img><span class="email-icon white-text"> Email Me </span></a>
+                        <div class="col s12 m3 center">
+                            <span class="white-text" id="email-icon"> Email Me </span>
                         </div>
-                        <div class="col s12 m3">
-                            <a class="resume-text" id = "resume" href="assets/Resume-2016-Fall.pdf"><img id = "resume-img" src= "assets/Resume.png" width="30px"></img><span class="resume-icon white-text"> Resume </span></a>
-                        </div>
+                        <div class="col s12 m3 center">
+                            <span class="white-text" id="resume-icon"> Resume </span>
+                        </div> 
                     </div>
                     <div><br></div>
                 </div>  
             </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
