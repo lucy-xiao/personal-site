@@ -95,6 +95,9 @@ $("#plugd-nav-item").click( function() {
 $("#top-nav-item").click( function() {
   $('body').scrollTo('#top');
 });
+$("#infog-nav-item").click( function() {
+  $('body').scrollTo('#infog-section');
+});
 
 $('#github').hover(
   function() {
